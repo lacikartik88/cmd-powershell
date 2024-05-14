@@ -1,0 +1,10 @@
+Anyway, here is how I enabled ping response in Windows 7:
+
+Control Panel --> System and security --> Windows Firewall --> Advanced settings --> Inbound rules --> New rule --> custom rule
+
+in Protocol and ports: Protocol: ICMPv4
+on the same panel go to customize, choose "Specific ICMP types", check the box "echo request"
+
+The rest is trivial; go to next... next... and save it.
+
+You should be done. This box responds ping from this point on.

@@ -1,0 +1,1 @@
+REG ADD HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters /f /v AllowInsecureGuestAuth /t REG_SZ /d 1

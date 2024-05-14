@@ -1,0 +1,1 @@
+wmic /output:C:\installed.txt product get name, version, installocation

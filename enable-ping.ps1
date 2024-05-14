@@ -1,0 +1,1 @@
+netsh advfirewall firewall add rule name="PING" protocol=ICMPV4 dir=in action=allow
