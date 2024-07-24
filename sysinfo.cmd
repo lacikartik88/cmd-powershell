@@ -9,3 +9,4 @@ set /p i_info=
 echo.
 systeminfo /s %pc_name% /fo list > %i_info%
 exit
+rem systeminfo | findstr /C:"BIOS*"

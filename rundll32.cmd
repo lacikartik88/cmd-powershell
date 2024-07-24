@@ -4,12 +4,12 @@ cls
 if not "%1"=="max" start /max cmd /c %0 max & Exit /b
 :: ##################################################################################################
 :: # Title     : Rundll32.exe Command List                                                          #
-:: # Created By: Kártik László [(Administrator)]                                                    #
+:: # Created By: Kártik László [(Senior IT System Engineer)]                                        #
 :: # Created On: 22-11-2022                                                                         #
-:: # Filename  : Rundll32.exe_Command_List.cmd                                                      #
-:: # Tutorial  : https://facebook.com/lacikartik                                                    #
+:: # Filename  : rundll32.cmd                                                                       #
+:: # Tutorial  : https://github.com/cmd-powershell                                                  #
 :: ##################################################################################################
-set "Title=Rundll32.exe Command List" & set "Author=Kártik László" & set "Copyright=Copyright © 2022"
+set "Title=rundll32.exe Command List" & set "Author=Kártik László (Senior IT System Engineer)" & set "Copyright=Copyright © 2022"
 title %Title% - Written by %Author%. - %Copyright%.
 
 setlocal EnableDelayedExpansion
@@ -113,7 +113,7 @@ echo. & echo  ==================================================================
         echo  %Title% - Written by %Author%. - %Copyright%.
         echo  =====================================================================================================================================================================
 echo. & echo  INFORMATION:
-echo. & echo    ^> Windows [Rundll32] commands loads and runs 32-bit Dynamic-Link Libraries (DLLs) that can be used for directly invoking specified functions, or used to create
+echo. & echo    ^> Windows [rundll32] commands loads and runs 32-bit Dynamic-Link Libraries (DLLs) that can be used for directly invoking specified functions, or used to create
         echo      shortcuts with.
         echo    ^> This program provides a quick way to directly invoke these specified functions.
         echo    ^> The Windows that open may look slightly different to normal, this is because they are opened in their pure form WITHOUT ANY enhanced viual effects being applied.
